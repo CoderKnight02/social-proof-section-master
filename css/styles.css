@@ -125,7 +125,7 @@ header p{
 }
 .sec2 q{
     color: hsl(300, 24%, 96%);
-    padding-right: 30px;
+    padding-right: 30px !important;
 }
 
 .line-height{
