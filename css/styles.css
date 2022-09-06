@@ -28,6 +28,7 @@ body{
     max-width: 1100px;
     display: flex;
     justify-content: space-between;
+    margin-top: -30px;
 }
 
 .sec1 header, .stars-sect{
@@ -127,6 +128,15 @@ header p{
     padding-right: 30px;
 }
 
+.line-height{
+    line-height: 25px;
+}
+
+.less-line-height{
+    line-height: 50px;
+}
+
+
 @media (max-width: 1120px){
     .sec1, .sec2{
         width: 900px;
@@ -146,6 +156,7 @@ header p{
         padding-top: 20px;
     }
     .sec1, .sec2{
+        margin-top: 0;
         width: 450px;
         padding: 20px;
     }
@@ -201,3 +212,4 @@ header p{
         width: 370px;    
     }
 }
+
