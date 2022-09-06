@@ -36,12 +36,14 @@ body{
     width: 45%;
 }
 .page-title{
+    line-height: 50px;
     font-size: 4em;
     color: hsl(300, 43%, 22%);
     margin-bottom: 0;
 }
 
 header p{
+    line-height: 25px;
     font-weight: 500;
     color: hsl(303, 10%, 53%);
     padding-right: 110px;
@@ -124,17 +126,13 @@ header p{
     display: block;
 }
 .sec2 q{
+    line-height: 25px;
+    display: block;
     color: hsl(300, 24%, 96%);
     padding-right: 30px !important;
 }
 
-.line-height{
-    line-height: 25px;
-}
 
-.less-line-height{
-    line-height: 50px;
-}
 
 
 @media (max-width: 1120px){
